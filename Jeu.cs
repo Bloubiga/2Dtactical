@@ -5,7 +5,7 @@ public class Jeu : MonoBehaviour {
 	Map current_map;
 	// Use this for initialization
 	void Start () {
-		current_map = generate_Map (10, 10);
+		current_map = generate_Map (30, 30);
 		current_map.randomize();
 	}
 	
